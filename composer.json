@@ -1,0 +1,17 @@
+{
+  "name": "openclerk/commodities",
+  "description": "Definitions and implementations of commodity currencies in Openclerk",
+  "autoload": {
+    "psr-4": {
+      "Commodity\\": "src",
+      "Commodity\\Tests\\": "test"
+    }
+  },
+  "require": {
+    "openclerk/config": "dev-master",
+    "openclerk/currencies": "dev-master"
+  },
+  "require-dev": {
+    "soundasleep/component-tests": "dev-master"
+  }
+}
